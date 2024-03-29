@@ -1,0 +1,798 @@
+repo_name: instagated/shopizer
+report_id: 497bb95e664f5f14a2c9351dc335ed6c
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-29T20:26:50+00:00'
+requested_by: instagated
+provider: github
+branch: master
+detected_tools_count: 60
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/instagated/shopizer
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/src/test/resources/sql/create_schema.sql
+  detection_source: sm-core/src/test/resources/sql/create_schema.sql
+  last_updated_by: Carl Samson
+  last_updated_on: 2014-06-22 22:14:34.000000000 Z
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/instagated/shopizer
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-02-16 16:37:45.000000000 Z
+- name: Amazon S3
+  description: Store and retrieve any amount of data, at any time, from anywhere on
+    the web
+  website_url: http://aws.amazon.com/s3
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/25/amazon-s3.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-02-16 16:37:45.000000000 Z
+- name: Ehcache
+  description: Java's Most Widely-Used Cache
+  website_url: http://ehcache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cache
+  image_url: https://img.stackshare.io/service/3093/EhcacheTwitterIcon.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-12-27 23:04:39.000000000 Z
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-02-16 16:37:45.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-02-16 16:37:45.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2018-04-08 23:58:42.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-12-16 03:47:43.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/instagated/shopizer
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/instagated/shopizer
+  detection_source: Repo Metadata
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/src/test/resources/application.properties
+  detection_source: sm-core/src/test/resources/application.properties
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-09-01 19:49:43.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  version: 2.12.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: lxxawfl
+  last_updated_on: 2022-10-14 10:20:48.000000000 Z
+  vulnerabilities:
+  - name: Deeply nested json in jackson-databind
+    cve_id: CVE-2020-36518
+    cve_url: https://github.com/advisories/GHSA-57j2-w4cx-62h2
+    detected_date: Mar 23
+    severity: high
+    first_patched: 2.12.6.1
+  - name: Uncontrolled Resource Consumption in Jackson-databind
+    cve_id: CVE-2022-42003
+    cve_url: https://github.com/advisories/GHSA-jjjh-jjxp-wpff
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
+    cve_id: CVE-2022-42004
+    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 8.0.21
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2021-06-26 14:56:49.000000000 Z
+  vulnerabilities:
+  - name: Incorrect Authorization in MySQL Connector Java
+    cve_id: CVE-2021-2471
+    cve_url: https://github.com/advisories/GHSA-w6f2-8wx4-47r5
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 8.0.27
+  - name: Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors
+      Java
+    cve_id: CVE-2022-21363
+    cve_url: https://github.com/advisories/GHSA-g76j-4cxx-23h9
+    detected_date: Jun 21
+    severity: moderate
+    first_patched: 8.0.28
+- name: org.owasp.antisamy:antisamy
+  version: 1.6.7
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop/pom.xml
+  detection_source: sm-shop/pom.xml
+  last_updated_by: JustFlavi
+  last_updated_on: 2021-10-15 13:17:00.000000000 Z
+  vulnerabilities:
+  - name: Malicious input can provoke XSS when preserving comments
+    cve_id: CVE-2024-23635
+    cve_url: https://github.com/advisories/GHSA-2mrq-w8pv-5pvq
+    detected_date: Feb 3
+    severity: moderate
+    first_patched: 1.7.5
+  - name: mXSS in AntiSamy
+    cve_id: CVE-2023-43643
+    cve_url: https://github.com/advisories/GHSA-pcf2-gh6g-h5r2
+    detected_date: Oct 9
+    severity: moderate
+    first_patched: 1.7.4
+- name: com.amazonaws:aws-java-sdk-s3
+  description: The AWS Java SDK for Amazon S3 module holds the client classes that
+    is used for communicating with Amazon Simple Storage Service
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: com.amazonaws:aws-java-sdk-ses
+  description: The AWS Java SDK for Amazon SES module holds the client classes that
+    are used for communicating with Amazon Simple Email Service
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  version: 2.10.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: lxxawfl
+  last_updated_on: 2022-10-14 10:20:48.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  version: 2.10.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: lxxawfl
+  last_updated_on: 2022-10-14 10:20:48.000000000 Z
+- name: com.google.cloud:google-cloud-storage
+  description: Java idiomatic client for Google Cloud Storage
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: com.googlecode.json-simple:json-simple
+  description: A simple Java toolkit for JSON
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: lxxawfl
+  last_updated_on: 2022-10-14 10:20:48.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: com.maxmind.geoip2:geoip2
+  description: API for accessing MaxMind's GeoIP2 web service
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: commons-collections:commons-collections
+  description: Types that extend and augment the Java Collections Framework
+  version: 3.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop/pom.xml
+  detection_source: sm-shop/pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-12-26 03:59:15.000000000 Z
+- name: commons-fileupload:commons-fileupload
+  description: The Apache Commons FileUpload component provides a simple yet flexible
+    means of adding support for multipart file upload functionality to servlets and
+    web applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core-model/pom.xml
+  detection_source: sm-core-model/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-01-20 00:40:53.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core-model/pom.xml
+  detection_source: sm-core-model/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-01-20 00:40:53.000000000 Z
+- name: commons-validator:commons-validator
+  description: Apache Commons Validator provides the building blocks for both client
+    side validation and server side data validation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: io.jsonwebtoken:jjwt
+  description: 'Java JWT: JSON Web Token for Java and Android'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop/pom.xml
+  detection_source: sm-shop/pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-02-27 16:10:25.000000000 Z
+- name: io.springfox:springfox-swagger-ui
+  description: JSON API documentation for spring based applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop/pom.xml
+  detection_source: sm-shop/pom.xml
+  last_updated_by: JustFlavi
+  last_updated_on: 2021-10-15 13:17:00.000000000 Z
+- name: io.springfox:springfox-swagger2
+  description: JSON API documentation for spring based applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop-model/pom.xml
+  detection_source: sm-shop-model/pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2021-04-02 22:53:04.000000000 Z
+- name: javax.annotation:javax.annotation-api
+  description: Common Annotations for the JavaTM Platform API
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop-model/pom.xml
+  detection_source: sm-shop-model/pom.xml
+  last_updated_by: Dima
+  last_updated_on: 2020-01-02 20:19:39.000000000 Z
+- name: javax.inject:javax.inject
+  description: The javax.inject API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2021-10-04 01:08:44.000000000 Z
+- name: javax.mail:javax.mail-api
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2021-06-26 14:56:49.000000000 Z
+- name: javax.mail:mail
+  description: "${project.name}"
+  version: 1.4.7
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2021-06-26 14:56:49.000000000 Z
+- name: javax.validation:validation-api
+  description: Bean Validation API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: lxxawfl
+  last_updated_on: 2022-10-14 10:20:48.000000000 Z
+- name: net.sf.ehcache:ehcache
+  description: This is a pom artifact to pull in ehcache-core and ehcache-terracotta
+    for clustering
+  license: Apache-2.0,QPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-12-27 23:04:39.000000000 Z
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: '3.5'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2021-06-13 22:37:52.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: org.apache.tomcat.embed:tomcat-embed-jasper
+  description: Core Tomcat implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop/pom.xml
+  detection_source: sm-shop/pom.xml
+  last_updated_by: JustFlavi
+  last_updated_on: 2021-10-15 13:17:00.000000000 Z
+- name: org.drools:drools-compiler
+  description: Drools is a rule engine
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: org.drools:drools-core
+  description: Drools is a rule engine
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-02-27 16:10:25.000000000 Z
+- name: org.drools:drools-decisiontables
+  description: Drools Expert is the rule engine and Drools Fusion does complex event
+    processing
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-09-06 20:30:50.000000000 Z
+- name: org.freemarker:freemarker
+  description: FreeMarker is a "template engine"; a generic tool to generate text
+    output based on templates
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-02-27 16:10:25.000000000 Z
+- name: org.hibernate:hibernate-ehcache
+  description: Integration for using Ehcache 2.x as a Hibernate second-level-cache
+    provider
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: org.infinispan:infinispan-core
+  description: Infinispan core module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2020-02-27 16:10:25.000000000 Z
+- name: org.json:json
+  description: JSON is a light-weight, language independent, data interchange format
+  license: JSON
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core-model/pom.xml
+  detection_source: sm-core-model/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-01-18 00:47:21.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop/pom.xml
+  detection_source: sm-shop/pom.xml
+  last_updated_by: JustFlavi
+  last_updated_on: 2021-10-15 13:17:00.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-aop
+  description: Starter for aspect-oriented programming with Spring AOP and AspectJ
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop/pom.xml
+  detection_source: sm-shop/pom.xml
+  last_updated_by: JustFlavi
+  last_updated_on: 2021-10-15 13:17:00.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core-model/pom.xml
+  detection_source: sm-core-model/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-01-18 00:47:21.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop/pom.xml
+  detection_source: sm-shop/pom.xml
+  last_updated_by: JustFlavi
+  last_updated_on: 2021-10-15 13:17:00.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-tomcat
+  description: Starter for using Tomcat as the embedded servlet container
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop/pom.xml
+  detection_source: sm-shop/pom.xml
+  last_updated_by: JustFlavi
+  last_updated_on: 2021-10-15 13:17:00.000000000 Z
+- name: org.springframework.security:spring-security-test
+  description: Spring-security-test
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop/pom.xml
+  detection_source: sm-shop/pom.xml
+  last_updated_by: JustFlavi
+  last_updated_on: 2021-10-15 13:17:00.000000000 Z
+- name: org.springframework:spring-context-support
+  description: Spring Context Support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core/pom.xml
+  detection_source: sm-core/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-08-25 01:36:07.000000000 Z
+- name: org.springframework:spring-core
+  description: Spring Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-shop-model/pom.xml
+  detection_source: sm-shop-model/pom.xml
+  last_updated_by: shopizer-ecommerce
+  last_updated_on: 2021-04-02 22:53:04.000000000 Z
+- name: org.springframework:spring-webmvc
+  description: Spring Web MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/shopizer/blob/master/sm-core-model/pom.xml
+  detection_source: sm-core-model/pom.xml
+  last_updated_by: shopizerecomm
+  last_updated_on: 2022-01-18 00:47:21.000000000 Z
